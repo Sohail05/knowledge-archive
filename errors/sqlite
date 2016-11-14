@@ -1,0 +1,15 @@
+
+```
+SQLSTATE[HY000] [14] unable to open database file
+```
+
+Causes
+
+- restrited permission on folder or file  
+
+
+fix
+
+```
+chmod 777 ./ -R
+```
