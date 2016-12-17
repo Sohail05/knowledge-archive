@@ -3,7 +3,7 @@
 Adding ssl to a new domain or subdomain.
 
 ```
-letsencrypt certonly -a standalone -d ${domain}
+letsencrypt certonly -a standalone -d ${domain} -w 4{path/to/webroot}
 ```
 
 Will create the following files required for nginx:
