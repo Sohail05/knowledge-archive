@@ -1,11 +1,11 @@
 ### Basic Auth
 
-Install the htpasswd CLI and create a password file.
+Install the htpasswd CLI and create a new password file with a user.
 ```
 sudo apt-get install apache2-utils
 htpasswd -c /etc/nginx/.htpasswd ${Username}
 ```
-`-c` : Create new or overwrite filae.
+`-c` : Create a new or overwrite the password file.
 
 nginx configation
 ```
