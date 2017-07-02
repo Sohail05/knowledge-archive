@@ -1,4 +1,4 @@
-### Permisions
+### Permissions
 
 `.ssh`: 700 (drwx------)
 
